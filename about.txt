@@ -1,0 +1,43 @@
+##################################
+#           Controls             #
+##################################
+
+
+Player 1:
+up = q
+down = a
+power shot = L CTRL
+
+Player 2:
+up = Up arrow
+Down = down arrow
+power shot = R CTRL
+
+##################################
+#          Requirements          #
+##################################
+
+Screens:
+
+intro Screens
+game screen (called "comp screen")
+game over screen
+
+Modes:
+ranked, And Practice
+
+Sounds:
+4 sound effects
+- bounce off wall
+- bounce off paddle
+- score
+- background music
+
+ball:
+- bounces on each surface, speed increases during bounce
+- each player has 1 power shot per game, ball will move faster for that round
+- when ball is off limits, screen flashes grey
+
+Constants:
+speed, font size, ball, and paddle size are based on constants
+
